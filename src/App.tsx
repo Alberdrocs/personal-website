@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Header from './components/Header'
 import './App.css'
 import HomePage from './components/HomePage';
@@ -12,14 +12,14 @@ import UnrealProject from './components/UnrealProject';
 
 function App(){
   return (
-    <Router>
+    <>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-md-10 col-lg-10">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<Projects/>} />
+        <Route path="projects" element={<Projects/>} />
         <Route path="/projects/website-project" element={<WebsiteProject/>} />
         <Route path="/projects/minecraft-project" element={<MinecraftProject/>} />
         <Route path="/projects/unreal-project" element={<UnrealProject/>} />
@@ -29,7 +29,7 @@ function App(){
       </div>
       </div>
       </div>
-    </Router>
+    </>
     );
 }
 

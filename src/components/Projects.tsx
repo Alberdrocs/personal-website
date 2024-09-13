@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../css/Projects.css'; // Custom CSS for the project list
 import projectsData from '../assets/projects.json'
+import { Link } from 'react-router-dom';
 
 interface Project {
     title: string;
@@ -46,7 +47,7 @@ function Projects() {
                 </li>
               ))}
             </ul>
-            <a href={"/projects" + project.link} className="btn btn-primary">Learn More</a>
+            <Link to={"/projects" + project.link} className="btn btn-primary">Learn More</Link>
           </div>
         </div>
       ))}

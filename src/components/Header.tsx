@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Header() {
   // Retrieve the saved theme from localStorage or default to 'light'
@@ -22,10 +25,10 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link" href="/">Home</a>
-            <a className="nav-link" href="/projects">Projects</a>
-            <a className="nav-link" href="/about">About Me</a>
-            <a className="nav-link" href="/resume">Resume</a>
+            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/projects">Projects</Link>
+            <Link className="nav-link" to="/about">About Me</Link>
+            <Link className="nav-link" to="/resume">Resume</Link>
           </div>
         </div>
         <button className="btn btn-secondary ms-auto" onClick={toggleTheme}>
