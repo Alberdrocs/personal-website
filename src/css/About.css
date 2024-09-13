@@ -1,0 +1,38 @@
+.container {
+    font-size: 1.2rem;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section-title {
+    padding-right: 2rem;
+  }
+  
+  .section-content {
+    padding-left: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .education-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education-list li {
+    margin-bottom: 2rem;
+  }
+  
+  hr {
+    margin: 3rem 0;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }

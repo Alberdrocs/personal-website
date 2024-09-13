@@ -1,0 +1,37 @@
+.project {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 1;
+}
+
+.project .col-12 {
+  position: relative;
+  z-index: 2;
+}
+
+.project h2, 
+.project p, 
+.project .btn, 
+.project .badge {
+  color: #fff; /* Ensure the text color is white for readability */
+}
+
+.project .badge {
+  background-color: rgba(255, 255, 255, 0.2); /* White with some opacity */
+}
+
+.project .btn-primary {
+  background-color: rgba(255, 255, 255, 0.2); /* White with some opacity */
+  border: none;
+}

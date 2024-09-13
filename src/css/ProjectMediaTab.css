@@ -1,0 +1,26 @@
+/* Styling for the expanded image */
+.expanded-image, .expanded-media {
+    width: 100%; /* Make the image take up the full width of the modal */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Additional custom styling for the modal */
+  .modal-dialog {
+    max-width: 90%; /* Increase the maximum width of the modal */
+    margin: 1.75rem auto; /* Center the modal */
+  }
+  
+  .modal-body {
+    position: relative;
+  }
+  
+  button.position-absolute {
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.position-absolute:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }

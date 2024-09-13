@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Personal Website",
+        "description": "A personal website that serves as an online resume and as a showcase of my web development abilities. The website is built using React for the back end, and Bootstrap for the front end.",
+        "technologies": ["React", "Bootstrap", "Node.js"],
+        "image": "html_text_image.jpg",
+        "link": "/website-project"
+    },
+    {
+        "title": "Minecraft Mod",
+        "description": "Thesis writing for a Bachelor's Final Year Project. Designing, developing, and testing new content added using the Forge API in Java, including new Entities' AI, procedural world generation, and terrain-modifying mechanics.",
+        "technologies": ["Java", "Forge API", "3D Modeling"],
+        "image": "minecraft_project_dark_aether.png",
+        "link": "/minecraft-project"
+    },
+    {
+        "title": "Unreal Engine Game Prototype",
+        "description": "Videogame prototype designed and developed using Unreal Engine 5 for a Game Development class group project. My main focus was level design and main character scripting.",
+        "technologies": ["UE5", "C++", "Level Design"],
+        "image": "unreal_project_image.png",
+        "link": "/unreal-project"
+    },
+    {
+        "title": "Android Studio Project",
+        "description": "Prototype Android app to serve as a companion to the videogame Monster Hunter World to help plan and create character builds for the game.",
+        "technologies": ["Android Studio", "Kotlin", "SQL"],
+        "image": "android-project-image.jpg",
+        "link": "/project-three"
+    }
+]
