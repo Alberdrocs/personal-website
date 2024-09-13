@@ -11,7 +11,7 @@ function HomePage(){
     <div className="row align-items-center intro-section">
           <div className="col-12 col-md-6 text-section">
             <h1>Hi, I'm Alberto Gonzalez</h1>
-            <p>Welcome to my personal page!</p>
+            <p>Welcome to my personal page! (Preview)</p>
           </div>
           <div className="col-12 col-md-6 image-section">
             
