@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './components/Header'
 import './App.css'
 import HomePage from './components/HomePage';
@@ -18,8 +18,8 @@ function App(){
           <div className="col-12 col-md-10 col-lg-10">
       <Header />
       <Routes>
-        <Route path="http://alberdrocs.github.io/personal-website" element={<HomePage />} />
-        <Route path="http://alberdrocs.github.io/personal-website/projects" element={<Projects/>} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<Projects/>} />
         <Route path="/projects/website-project" element={<WebsiteProject/>} />
         <Route path="/projects/minecraft-project" element={<MinecraftProject/>} />
         <Route path="/projects/unreal-project" element={<UnrealProject/>} />
