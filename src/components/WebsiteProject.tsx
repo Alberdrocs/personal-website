@@ -33,7 +33,7 @@ function WebsiteProject() {
             <p>Bootstrap made creating a consistent, mobile-friendly interface that adapts seamlessly to different 
               screen sizes an easy task. The combination of both technologies allowed for rapid development while 
               maintaining high standards of design and functionality, resulting in a visually appealing and easy to use website.</p>
-            <p>You cand find  all the code in the <a href="https://github.com/Alberdrocs/personal-website">Github page</a></p>
+            <p>You cand find  all the code for this website in the <a href="https://github.com/Alberdrocs/personal-website">Github page</a></p>
           </div>
         </div>
 
