@@ -82,19 +82,6 @@ function About() {
         </div>
         <hr />
   
-        {/* Looking at the Future Section */}
-        <div className="row section">
-          <div className="col-md-4 section-title">
-            <h2>Looking at the Future</h2>
-          </div>
-          <div className="col-md-8 section-content">
-            <p>While I am currently enrolled in a Masters and working part-time at a restaurant, I am still looking for opportunities, 
-              both during my studies, in the form of internships or sponsored projects, and after graduation, in the form of full-time job opportunities. </p>
-            <p>My plan is to stay in Ireland during the foreseeable future, ideally in Cork, but I don't deny the possibility of moving 
-              once I graduate if an offer is enticing enough. I am excited and looking forward to the future, if you have any opportunities 
-              or offers you would like to discuss, feel free to contact me through any of the mediums available. </p>
-          </div>
-        </div>
       </div>
     );
   }
