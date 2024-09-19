@@ -49,10 +49,10 @@ function UnrealProject() {
   }, [show, currentIndex]);
 
   const mediaItems = [
-    { type: 'image', src: '/unreal-image-1.png' },
-    { type: 'image', src: '/unreal-image-2.png' },
-    { type: 'image', src: '/unreal-image-3.png' },
-    { type: 'video', src: '/unreal-video.mp4' }, // Replace with your video URLs
+    { type: 'image', src: 'unreal-image-1.png' },
+    { type: 'image', src: 'unreal-image-2.png' },
+    { type: 'image', src: 'unreal-image-3.png' },
+    { type: 'video', src: 'unreal-video.mp4' }, 
   ];
 
     return (
@@ -65,12 +65,13 @@ function UnrealProject() {
             <h2>What is it?</h2>
           </div>
           <div className="col-md-8 section-content">
-          <p>This website is a fully responsive personal online resume that showcases my professional journey, 
-            skills and projects. It was designed and developed entirely by me during my free time in summer, 
-            as a way of getting my skills in web development up to date with current technologies and frameworks.</p>
-          <p>This site highlights my abilities in web, software, and game development, and it serves as a central 
-            hub where potential employers, collaborators, and clients can explore my work, 
-            learn about my background, and connect with me directly.</p>
+          <p>This project was developed for a Game Development module during my Software Development Bachelors at 
+            MTU, and it was a group project done with two other students. The goal was to come up with a game idea, 
+            make a Game Design Document with all the systems and mechanics the game would utilize, and then 
+            program and develop a functional prototype.</p>
+          <p>One of the requirements of the assignment was to include at least one of the 17 Sustainable Development 
+            Goals as the main theme of the game. For ours, we choose the protection of biodiversity and ecosystems, 
+            where the main objective was to protect endangered species from poachers.</p>
           </div>
         </div>
         <hr />
@@ -80,13 +81,13 @@ function UnrealProject() {
             <h2>How was it done?</h2>
           </div>
           <div className="col-md-8 section-content">
-            <p>This website was built using React for the front end and Bootstrap for the styling and layout. 
-              React's component-based architecture allowed me to create a dynamic and interactive user experience, 
-              where each section of the site is modular and easy to maintain. React ensures that the site loads 
-              quickly and runs smoothly across all devices. </p>
-            <p>Bootstrap made creating a consistent, mobile-friendly interface that adapts seamlessly to different 
-              screen sizes an easy task. The combination of both technologies allowed for rapid development while 
-              maintaining high standards of design and functionality, resulting in a visually appealing and easy to use website.</p>
+            <p>The game was developed using Unreal Engine 5, and the workload was distributed between the three members 
+              of the group. I was in charge of modeling the game environment and of programming the Main Character 
+              Controller, alongside the weapons system.</p>
+            <p>For the Player Controller I used a mix of Unreal's visual scripting and classic scripting with C++ 
+              to achieve good controls for the player, like jumping, crouching, sliding and climbing smoothly. The 
+              player could also pick and use weapons, as seen in the video below (however as we did not have any 
+              audio or VFX person in our group, those components are missing).</p>
           </div>
         </div>
         <hr />
