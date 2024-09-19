@@ -21,10 +21,10 @@
         "link": "/unreal-project"
     },
     {
-        "title": "Android Studio Project",
+        "title": "Android App",
         "description": "Prototype Android app to serve as a companion to the videogame Monster Hunter World to help plan and create character builds for the game.",
         "technologies": ["Android Studio", "Kotlin", "SQL"],
         "image": "android-project-image.jpg",
-        "link": "/project-three"
+        "link": "/android-project"
     }
 ]

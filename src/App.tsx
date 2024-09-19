@@ -9,6 +9,7 @@ import About from './components/About'
 import Resume from './components/Resume'
 import MinecraftProject from './components/MinecraftProject';
 import UnrealProject from './components/UnrealProject';
+import AndroidProject from './components/AndroidProject';
 
 function App(){
   return (
@@ -23,6 +24,7 @@ function App(){
         <Route path="/projects/website-project" element={<WebsiteProject/>} />
         <Route path="/projects/minecraft-project" element={<MinecraftProject/>} />
         <Route path="/projects/unreal-project" element={<UnrealProject/>} />
+        <Route path="/projects/android-project" element={<AndroidProject/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/resume" element={<Resume/>} />
       </Routes>
