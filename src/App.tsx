@@ -10,6 +10,7 @@ import Resume from './components/Resume'
 import MinecraftProject from './components/MinecraftProject';
 import UnrealProject from './components/UnrealProject';
 import AndroidProject from './components/AndroidProject';
+import ScrollToTop from './ScrollToTop';
 
 function App(){
   return (
@@ -18,6 +19,7 @@ function App(){
         <div className="row justify-content-center">
           <div className="col-12 col-md-10 col-lg-10">
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="projects" element={<Projects/>} />

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import '../css/Projects.css'; // Custom CSS for the project list
+import '../css/Projects.css';
 import projectsData from '../assets/projects.json'
 import { Link } from 'react-router-dom';
 
@@ -17,7 +17,7 @@ function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    setProjects(projectsData); // Directly set the projects state with the imported data
+    setProjects(projectsData);
   }, []);
 
 

@@ -50,8 +50,8 @@ function MinecraftProject() {
 
   const mediaItems = [
     { type: 'image', src: 'https://media.forgecdn.net/attachments/875/594/2024-04-13_12.png' },
-    { type: 'image', src: 'https://media.forgecdn.net/attachments/875/595/2024-04-13_12.png' }, // Replace with your image URLs
-    { type: 'image', src: 'https://media.forgecdn.net/attachments/875/596/2024-04-21_14.png' } // Replace with your image URLs
+    { type: 'image', src: 'https://media.forgecdn.net/attachments/875/595/2024-04-13_12.png' },
+    { type: 'image', src: 'https://media.forgecdn.net/attachments/875/596/2024-04-21_14.png' }
   ];
 
     return (

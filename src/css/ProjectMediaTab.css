@@ -1,13 +1,12 @@
-/* Styling for the expanded image */
+
 .expanded-image, .expanded-media {
-    width: 100%; /* Make the image take up the full width of the modal */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
   
-  /* Additional custom styling for the modal */
   .modal-dialog {
-    max-width: 90%; /* Increase the maximum width of the modal */
-    margin: 1.75rem auto; /* Center the modal */
+    max-width: 90%;
+    margin: 1.75rem auto;
   }
   
   .modal-body {
