@@ -49,10 +49,11 @@ function AndroidProject() {
   }, [show, currentIndex]);
 
   const mediaItems = [
-    { type: 'image', src: 'unreal-image-1.png' },
-    { type: 'image', src: 'unreal-image-2.png' },
-    { type: 'image', src: 'unreal-image-3.png' },
-    { type: 'video', src: 'unreal-video.mp4' }, 
+    { type: 'image', src: 'android-image-1.jpg' },
+    { type: 'image', src: 'android-image-2.jpg' },
+    { type: 'image', src: 'android-image-3.jpg' },
+    { type: 'image', src: 'android-image-4.jpg' },
+    { type: 'video', src: 'android-project-video.mp4' }, 
   ];
 
     return (
@@ -65,13 +66,15 @@ function AndroidProject() {
             <h2>What is it?</h2>
           </div>
           <div className="col-md-8 section-content">
-          <p>This project was developed for a Game Development module during my Software Development Bachelors at 
-            MTU, and it was a group project done with two other students. The goal was to come up with a game idea, 
-            make a Game Design Document with all the systems and mechanics the game would utilize, and then 
-            program and develop a functional prototype.</p>
-          <p>One of the requirements of the assignment was to include at least one of the 17 Sustainable Development 
-            Goals as the main theme of the game. For ours, we choose the protection of biodiversity and ecosystems, 
-            where the main objective was to protect endangered species from poachers.</p>
+          <p>This project was developed as a Final Project for a vocational training course in Multi-platform 
+            Application Development. It is an Android application that serves as a companion for the video-game 
+            Monster Hunter World to help plan and create character's builds.</p>
+          <p>It works by having a database with all of the weapons, armors, accessories and skills in the game 
+            (which are more than a 500) and giving users an interface similar to the one in the game to select 
+            all the equipment pieces for their character. Each equipment piece can come with up to 2 skills 
+            attached, and this skills can be combined to grant greater and stronger effects. There are more 
+            than a million possible combinations, so the app also offers filtering options to find the equipment 
+            with certain skills, attributes, or levels, to facilitate the user experience.</p>
           </div>
         </div>
         <hr />
@@ -81,13 +84,14 @@ function AndroidProject() {
             <h2>How was it done?</h2>
           </div>
           <div className="col-md-8 section-content">
-            <p>The game was developed using Unreal Engine 5, and the workload was distributed between the three members 
-              of the group. I was in charge of modeling the game environment and of programming the Main Character 
-              Controller, alongside the weapons system.</p>
-            <p>For the Player Controller I used a mix of Unreal's visual scripting and classic scripting with C++ 
-              to achieve good controls for the player, like jumping, crouching, sliding and climbing smoothly. The 
-              player could also pick and use weapons, as seen in the video below (however as we did not have any 
-              audio or VFX person in our group, those components are missing).</p>
+            <p>The app was built using Android Studio and the Kotlin programming language. All the equipment 
+              information is stored in a SQLite local database that is shipped with the app using the Room 
+              persistence library, and is then accessed through data access objects.</p>
+            <p>The app also uses Android technologies like Fragments and Data Binding, to offer a smooth and 
+              adequate experience with reduced load times in a lifecycle-aware fashion to increase performance. 
+              Though it is possible that some of the technologies may be outdated, as this project is more 
+              than 4 years old, at the time of the development it used all brand-new innovations in Android 
+              development. You can find the code for it on the <a href='https://github.com/Alberdrocs/MHWBuilder'>Github page</a>.</p>
           </div>
         </div>
         <hr />
