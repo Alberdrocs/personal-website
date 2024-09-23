@@ -130,7 +130,7 @@ function AndroidProject() {
       </div>
 
       {/* Modal for Media Expansion */}
-      <Modal show={show} onHide={handleClose} centered size="xl">
+      <Modal show={show} onHide={handleClose} centered size="lg">
         <Modal.Body className="position-relative">
           {isVideo ? (
             <video controls className="expanded-media">

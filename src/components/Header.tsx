@@ -31,7 +31,9 @@ function Header() {
             <Link className="nav-link" to="/resume">Resume</Link>
           </div>
         </div>
-        
+        <button className="btn btn-secondary ms-auto" onClick={toggleTheme}>
+          {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
+        </button>
       </div>
     </nav>
   );
