@@ -109,10 +109,8 @@ function About() {
               <h4>Munster Technological University (Ireland)</h4>
               <p>2024 - 2025</p>
               <p>
-                Masters degree starting on September 2024 where I will learn how
-                to use and develop intelligent computer systems that can learn
-                from experience, recognise patterns in vast amounts of data and
-                reason strategically in complex decision making situations.{" "}
+                Masters of Science with a study focused on topics such as deep
+                learning, natural language processing, and machine vision.
               </p>
             </li>
           </ul>

@@ -43,12 +43,11 @@ function HomePage() {
             developed.
           </p>
           <p>
-            WhI hold a Master's degree in Artificial Intelligence, where I
-            focused on deep learning, NLP, and computer vision. Most recently, I
-            worked as a Software Development Engineer at Amazon, contributing
-            across the full software development lifecycle—including design
-            documents, feature implementation, testing strategies, and CI/CD
-            pipelines.{" "}
+            I hold a Master's degree in Artificial Intelligence, where I focused
+            on deep learning, NLP, and computer vision. Most recently, I worked
+            as a Software Development Engineer at Amazon, contributing across
+            the full software development lifecycle, including design documents,
+            feature implementation, testing strategies, and CI/CD pipelines.
           </p>
           <p>
             I'm currently seeking new opportunities where I can continue to
@@ -56,7 +55,7 @@ function HomePage() {
             products. While I've lived in Ireland for several years and remain
             open to roles there (especially in Cork), I'm focused on finding a
             new position in Madrid, but I'm also flexible about relocating for
-            the right position.{" "}
+            the right position.
           </p>
         </div>
       </div>
